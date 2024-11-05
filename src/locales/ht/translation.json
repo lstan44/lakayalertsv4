@@ -1,0 +1,84 @@
+{
+  "app": {
+    "name": "LakayAlert",
+    "version": "Vèsyon {{version}}"
+  },
+  "nav": {
+    "map": "Kat",
+    "list": "Lis",
+    "back": "Retounen nan Ensidan yo",
+    "showOnMap": "Montre sou Kat la"
+  },
+  "incident": {
+    "types": {
+      "GANG_ACTIVITY": "Aktivite Gang",
+      "SEXUAL_VIOLENCE": "Vyolans Seksyèl",
+      "CIVIL_UNREST": "Dezòd Sivil",
+      "KIDNAPPING": "Kidnaping",
+      "ROBBERY": "Vòl",
+      "NATURAL_DISASTER": "Dezas Natirèl",
+      "ROAD_CLOSURE": "Wout Fèmen"
+    },
+    "severity": {
+      "CRITICAL": "Kritik",
+      "HIGH": "Wo",
+      "MODERATE": "Modere",
+      "LOW": "Ba"
+    },
+    "report": {
+      "button": "Rapòte Ensidan",
+      "title": "Rapòte Nouvo Ensidan",
+      "type": {
+        "label": "Tip Ensidan",
+        "placeholder": "Chwazi tip ensidan"
+      },
+      "description": {
+        "label": "Deskripsyon",
+        "placeholder": "Bay detay sou ensidan an..."
+      },
+      "severity": {
+        "label": "Nivo Severite",
+        "placeholder": "Chwazi severite"
+      },
+      "location": {
+        "label": "Lokalizasyon",
+        "detecting": "Ap detekte lokalizasyon ou...",
+        "detected": "Lokalizasyon detekte: {{zone}}",
+        "error": "Pa ka detekte lokalizasyon",
+        "permission": "Tanpri aktive sèvis lokalizasyon"
+      },
+      "media": {
+        "label": "Fichye Medya",
+        "upload": "Telechaje fichye",
+        "types": "PNG, JPG, GIF, MP4 jiska 10MB",
+        "dragDrop": "Trennen epi lage fichye yo isit",
+        "remove": "Retire"
+      },
+      "anonymous": "Rapòte anonim",
+      "submit": "Soumèt Rapò",
+      "submitting": "Ap soumèt...",
+      "success": "Ensidan rapòte avèk siksè",
+      "error": "Echèk pou rapòte ensidan"
+    },
+    "notFound": "Ensidan pa Jwenn",
+    "details": {
+      "mediaPreview": "Apèsi Medya",
+      "yourLocation": "Lokalizasyon ou",
+      "clickToView": "Klike pou wè detay yo",
+      "votes": {
+        "upvote": "Itil",
+        "downvote": "Pa Itil"
+      }
+    }
+  },
+  "language": {
+    "en": "English",
+    "ht": "Kreyòl",
+    "switch": "Chanje Lang",
+    "current": "Kouran: {{language}}"
+  },
+  "menu": {
+    "title": "Meni",
+    "about": "Konsènan LakayAlert"
+  }
+}

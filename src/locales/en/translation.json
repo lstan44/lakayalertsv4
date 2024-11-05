@@ -1,0 +1,84 @@
+{
+  "app": {
+    "name": "LakayAlert",
+    "version": "Version {{version}}"
+  },
+  "nav": {
+    "map": "Map",
+    "list": "List",
+    "back": "Back to Incidents",
+    "showOnMap": "Show on Map"
+  },
+  "incident": {
+    "types": {
+      "GANG_ACTIVITY": "Gang Activity",
+      "SEXUAL_VIOLENCE": "Sexual Violence",
+      "CIVIL_UNREST": "Civil Unrest",
+      "KIDNAPPING": "Kidnapping",
+      "ROBBERY": "Robbery",
+      "NATURAL_DISASTER": "Natural Disaster",
+      "ROAD_CLOSURE": "Road Closure"
+    },
+    "severity": {
+      "CRITICAL": "Critical",
+      "HIGH": "High",
+      "MODERATE": "Moderate",
+      "LOW": "Low"
+    },
+    "report": {
+      "button": "Report Incident",
+      "title": "Report New Incident",
+      "type": {
+        "label": "Incident Type",
+        "placeholder": "Select incident type"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Provide details about the incident..."
+      },
+      "severity": {
+        "label": "Severity Level",
+        "placeholder": "Select severity"
+      },
+      "location": {
+        "label": "Location",
+        "detecting": "Detecting your location...",
+        "detected": "Location detected: {{zone}}",
+        "error": "Could not detect location",
+        "permission": "Please enable location services"
+      },
+      "media": {
+        "label": "Media Files",
+        "upload": "Upload files",
+        "types": "PNG, JPG, GIF, MP4 up to 10MB",
+        "dragDrop": "Drag and drop files here",
+        "remove": "Remove"
+      },
+      "anonymous": "Report anonymously",
+      "submit": "Submit Report",
+      "submitting": "Submitting...",
+      "success": "Incident reported successfully",
+      "error": "Failed to report incident"
+    },
+    "notFound": "Incident Not Found",
+    "details": {
+      "mediaPreview": "Media Preview",
+      "yourLocation": "Your Location",
+      "clickToView": "Click to view details",
+      "votes": {
+        "upvote": "Helpful",
+        "downvote": "Not Helpful"
+      }
+    }
+  },
+  "language": {
+    "en": "English",
+    "ht": "Kreyòl",
+    "switch": "Change Language",
+    "current": "Current: {{language}}"
+  },
+  "menu": {
+    "title": "Menu",
+    "about": "About LakayAlert"
+  }
+}
